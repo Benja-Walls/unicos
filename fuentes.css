@@ -1,0 +1,29 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--gray3);
+    text-align: center;
+    font-size: 14;
+}
+
+header,
+footer,
+section.even {
+    color: var(--white); /* los fondos azules van a tener letra blanca*/
+    
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h2, h3, h4 {
+    letter-spacing: 0.3rem;
+}
+
+h1, h3 {
+    text-transform: uppercase; /* mayuscula*/
+}
+
+h4 {
+    font-size: 1.5rem;
+}

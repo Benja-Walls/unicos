@@ -1,0 +1,62 @@
+form {
+    font-size: 1.2rem; /*cambiar tamaño de letras*/
+}
+form label{
+    display:block;
+    width: 50%;
+    margin: 0 auto; /*cambiamos los label a block y los centramos*/
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    width: 100%;
+    padding: 1rem;
+    color: var(--white);
+    border: none;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem; /*le sacamos el borde, le ponemos opacidad, ponemos el cursor*/
+
+}
+
+textarea {
+    resize: none /*le ponemos esto porq sino el textarea se puedo modificar en la pagina*/
+}
+
+form button {
+    background-color: var(--secondary);
+    color: var(--white);
+    margin: 3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease; 
+    /*le agregamos estilo al botton (bordes y transicion)*/
+}
+
+form button:hover {
+    background-color: var(--secondary-dark);
+}
+
+#solcial-media img {
+    border-radius: 10rem;
+    background-color: var(--white);
+    transition: all ease ,3s;
+    margin: 1rem;
+}
+
+#social-media a {
+    text-decoration: none;
+}
+
+#twitter:hover {
+    background-color: rgb(47, 152, 221);
+}
+
+#instagram:hover {
+    background-color: rgb(150, 41, 113);
+}
+

@@ -1,0 +1,5 @@
+.circle {
+    border-radius: 50%; /*indica que cualquier cuadrado va a tener
+                        50% en el corde radius y se transforma a ciruclo*/
+
+}

@@ -1,0 +1,52 @@
+#habilidades > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;    /*espacio entre habilidades y cuantas columnas hay*/
+}
+
+#habilidades img {
+    border-radius: 1rem;  /*borde en las imagenes y que el cursor cambie*/
+    max-width: 40rem;
+    cursor: context-menu;
+}
+#habilidades > div > div {
+    position: relative; 
+}
+
+#habilidades span {
+    width: 120px;
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
+    padding: .5rem 0;
+    border-radius: .5rem;
+    position: absolute;   
+    z-index: 1;  
+    top: -40px;                              
+    left: 50%;
+    transform: translate(-60px, 10px);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    /* ancho de 120px, fondo negro, alinear texto,creado espacio en la caja
+    le dio borde a la caja, posicion absoluta, index de 1 para que flote encima de los elementos, posicionar, 
+    tansicion para la opacidad y posicion */
+}
+
+#habilidades > div > div:hover span{
+    opacity: 1;
+    transform:translate(-60px, 0px);
+/*estilos*/
+}
+
+#habilidades span:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: -5px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.75) transparent transparent transparent;
+}
+/*flecha para abajo*/

@@ -1,0 +1,16 @@
+header {
+    padding: 5rem 0 3rem;
+    position: relative; /*para que el video despues este en posicion absoluta*/
+    overflow: hidden; /*para que el video no se desvorde*/
+    background: linear-gradient(var(--black), var(--black2));
+}
+
+header video {
+    position: absolute; /* para que el video este flotando*/
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+}

@@ -1,0 +1,14 @@
+:root {
+    --primary: hsl(214, 62%, 65%);
+    --primary-clear:hsl(202, 58%, 61%);
+    --secondary: hsl(194, 64%, 46%);
+    --secondary-dark: hsl(199, 57%, 37%);
+    --white:#f5f9fa;
+    --white2:#ebf3f5;
+    --gray:#e1e4e5;
+    --gray2:#c0c6c9;
+    --gray3:#4b4c4d;
+    --black:#323333;
+    --black2:#2a2b2b;
+    --nombre: #ffffff; 
+}
