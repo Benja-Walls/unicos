@@ -1,0 +1,23 @@
+{
+  "name": "html-primer",
+  "version": "1.0.0",
+  "description": "Mi portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Benja-Walls/unicos.git"
+  },
+  "author": "Benjamin Paredes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benja-Walls/unicos/issues"
+  },
+  "homepage": "https://github.com/Benja-Walls/unicos#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
